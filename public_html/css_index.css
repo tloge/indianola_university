@@ -1,0 +1,54 @@
+body {
+	background-color: #ef0b17;
+}
+
+h1 {
+	font-size: 2em;
+	text-decoration: underline;
+	text-align: center;
+}
+
+section {
+	font-size: 1.25em;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+p {
+	text-indent: 50px;
+}
+
+nav {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+}
+
+li a:hover {
+	background-color: black;
+	color: red;
+}
+
+li a:not(.active) {
+	background-color: black;
+}
+
+.active {
+	background-color: #fffb38;
+	color: black;
+}
