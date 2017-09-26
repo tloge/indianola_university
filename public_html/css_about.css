@@ -1,3 +1,13 @@
+body {
+	background-color: #ef0b17;
+}
+
+h1 {
+	font-size: 2em;
+	text-decoration: bold;
+	text-align: center;
+}
+
 section {
 	font-size: 1.25em;
 	padding-left: 50px;
