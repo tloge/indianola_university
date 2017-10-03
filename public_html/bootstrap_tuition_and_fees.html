@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Indianola University</title>
+    <title>Tuition and Fees</title>
 
     <!-- This says our CSS is compatible with phones, and phones
          don't need to scale it strangely. -->
@@ -26,14 +26,14 @@
 
     <!-- Our custom stylesheet that WE write. We need this to not have our
          text appear under the nav bar. -->
-    <link rel="stylesheet" href="css_bootstrap_index.css">
+    <link rel="stylesheet" href="custom.css">
 
   </head>
 
   <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top navbar-light">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -46,15 +46,15 @@
           </button>
 
           <!-- Title on nav bar -->
-          <a class="navbar-brand" href="#">Indianola University</a>
+          <a class="navbar-brand" href="bootstrap_index.html">Indianola University</a>
         </div>
 
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="bootstrap_index.html">Home Page</a></li>
+            <li><a href="bootstrap_index.html">Home Page</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="directons.html">Directions and Hours</a></li>
-            <li><a href="bootstrap_tuition_and_fees.html">Tuition and Fees</a></li>
+            <li class="active"><a href="tuition_and_fees.html">Tuition and Fees</a></li>
             <li><a href="majors.html">Majors</a></li>
             <li><a href="sports.html">Sports</a></li>
             <li><a href="login.html">Login</a></li>
@@ -65,32 +65,67 @@
     </nav>
 
     <!-- Main content -->
-    <div class="container col-xs-12">
+    <div class="container">
       <!-- This container moves below the menu bar -->
       <div class="below_menu_container">
+        <h1>Tuition and Fees</h1>
+        <section>
+    <h1>Tuition and Fees</h1>
+<div class="container col-xs-12">
+      <!-- This container moves below the menu bar -->
+      <div class="below_menu_container"></div>
         <div class="jumbotron jumbotron-fluid">
           <center><div class="container">
             <img src="img/header.jpg" alt="Indianola University Header">
           </div></center>
         </div>
-        <h1>Welcome!</h1>
-        <p> Welcome to the offical website of Indianola University. We are happy to have you on our site. While looking around, if you have any questions on applying plese call our recruitment office at <em>515-456-7894</em>.</p>
+    <article>
+    
+      <p>Below are our current tuition and fees for the 2017-18 school year.</p>
 
-      <p> Here at Indianola University we pride ourselves on a quality education. We have been described as the &quot;Harvard of the Midwest&quot;, but we don't think this really describes us. We look at it as Harvard is the Indianola College of the Ivy League. We are the best college in the entire universe. Our students have a 100% job placement rate after graduation. We also have 100% of our students graduate. These number cannot be beat by any college. The best part is, we also have a 100% acceptance rate! Located 15 minutes south of Des Moines, the location is unbeatable for college students.</p>
+  <center><table>
+  <tr>
+    <td>Tuition</td>
+    <td>$80,564</td> 
+  </tr>
+  <tr>
+    <td>Activity Fee</td>
+    <td>$125</td> 
+  </tr>
+  <tr>
+    <td>Computer Fee</td>
+    <td>$1,250</td> 
+  </tr>
+  <tr>
+    <td>Intramural Fee</td>
+    <td>$250</td> 
+  </tr>
+  <tr>
+    <td>Room Charge</td>
+    <td>$6,529</td> 
+  </tr>
+  <tr>
+    <td>Board Charge</td>
+    <td>$5,874</td> 
+  </tr>
+    <tr>
+    <td>Total Tuition and Fees</td>
+    <td>$94,592</td> 
+  </tr>
+</table></center>
 
-      <p> Please feel free to explore our website and see all that we have to offer! Thanks for visiting and <em>GO LEAF STORM</em>! </p>
+    <p>Unfortunately, at this time we do not provide any financial aid.</p>
+    <p>For all of our European students our total tuition and fees in Euros is 79.272,58 &euro;. </p>
+
+    </article>
+    </section>
       </div>
     </div>
-
-    <footer>
+<center><footer>
       &copy; Indianola University, 2017<br>
       702 E C St, Indianola, IA 50125<br>
       Phone: 515-123-4567
-    </footer>
-
-    <center><div class="alert alert-danger" role="alert">Full ride sports scholarships still avalivable!
-    </div></center>
-
+</footer></center>
     <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
