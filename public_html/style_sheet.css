@@ -1,5 +1,5 @@
 header {
-    background-color: #931a2a;
+    background-color: #DC2C13;
     text-align: center;
     font-size: 30px;
     height: 250px;
@@ -54,11 +54,12 @@ p {
 }
 
 .mens {
-    font-family: cursive, seriff;
+    font-family: arial, seriff;
+    font-size: 18px;
 }
 
 .womens {
-    font-family: lucida console, seriff;
+    font-family: arial, seriff;
     font-size: 18px;
 }
 
