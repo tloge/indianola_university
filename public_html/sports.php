@@ -14,7 +14,7 @@
 
   <title>Indianola University</title>
 
- <?php include 'navigation.php'; ?>
+ <?php include '../resources/navigation.php'; ?>
 
      <!-- Main content -->
     <div class="container">
@@ -81,6 +81,6 @@
      
     </article>
   </section>
- <?php include 'footer.php'; ?>
+ <?php include '../resources/footer.php'; ?>
 </body>
 </html>

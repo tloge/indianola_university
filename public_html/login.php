@@ -13,7 +13,7 @@
 
   <title>Indianola University</title>
 
- <?php include 'navigation.php'; ?>
+ <?php include '../resources/navigation.php'; ?>
 
 </head>
    <!-- Main content -->
@@ -52,6 +52,6 @@
     </form>   
   </section>
 
- <?php include 'footer.php'; ?>
+ <?php include '../resources/footer.php'; ?>
 </body>
 </html>

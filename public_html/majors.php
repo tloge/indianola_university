@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/simplex/bootstrap.min.css">
 
   <title>Indianola University</title>
- <?php include 'navigation.php'; ?>
+ <?php include '../resources/navigation.php'; ?>
 </head>
 
    <!-- Main content -->
@@ -101,6 +101,6 @@
      
     </article>
   </section>
- <?php include 'footer.php'; ?>
+ <?php include '../resources/footer.php'; ?>
 </body>
 </html>

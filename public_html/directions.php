@@ -14,7 +14,7 @@
 
   <title>Indianola University</title>
 
-<?php include 'navigation.php'; ?>
+<?php include '../resources/navigation.php'; ?>
 
 
    <!-- Main content -->
@@ -68,6 +68,6 @@
     <p><img src="img/map.png" alt="Indianola University Map"></p>
     </article>
   </section>
- <?php include 'footer.php'; ?>
+ <?php include '../resources/footer.php'; ?>
 </body>
 </html>

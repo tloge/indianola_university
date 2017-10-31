@@ -13,7 +13,7 @@
 
   <title>Indianola University</title>
 
- <?php include 'navigation.php'; ?>
+ <?php include '../resources/navigation.php'; ?>
 
      <!-- Main content -->
     <div class="container">
@@ -52,6 +52,6 @@
     <div class="alert alert-info" role="alert">
     <strong>Warning!</strong> If you already have an account go to the login page.
   </div>
- <?php include 'footer.php'; ?>
+ <?php include '../resources/footer.php'; ?>
 </body>
 </html>

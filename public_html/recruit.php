@@ -13,7 +13,7 @@
 
   <title>Indianola University</title>
 
- <?php include 'navigation.php'; ?>
+ <?php include '../resources/navigation.php'; ?>
 
      <!-- Main content -->
     <div class="container">
@@ -54,6 +54,6 @@
     </form> 
     <p> Thank you for your interest in Indianola University, our coaches will get in contact with you within a few days!   
   </section>
- <?php include 'footer.php'; ?>
+ <?php include '../resources/footer.php'; ?>
 </body>
 </html>

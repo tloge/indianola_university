@@ -16,7 +16,7 @@
 </head>
 <body>
 
- <?php include 'navigation.php'; ?>
+ <?php include '../resources/navigation.php'; ?>
 
     <!-- Scripts required to make Bootstrap work better. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -43,6 +43,6 @@
     <p>Please feel free to explore our website and see all that we have to offer! Thanks for visiting and <em> GO LEAF STORM</em>! </p>
   </article>
 
- <?php include 'footer.php'; ?>
+ <?php include '../resources/footer.php'; ?>
 </body>
 </html>
