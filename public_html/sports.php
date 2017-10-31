@@ -14,37 +14,7 @@
 
   <title>Indianola University</title>
 
-<!-- Navigation Bar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-    <!-- Three line "hamburger" icon for the collapsed navigation -->
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-          <!-- Title on nav bar -->
-          <a class="navbar-brand" href="index.html">Indianola University</a>
-        </div>
-
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="directions.html">Directions and Hours</a></li>
-            <li><a href="tuition_and_fees.html">Tutition and Fees</a></li>
-            <li><a href="majors.html">Majors</a></li>
-            <li class="active"><a href="sports.html">Sports</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="sign_up.html">Sign Up</a></li>
-            <li><a href="recruit.html">Recruit Me</a></li>
-          </ul>
-        </div>
-      </div>
-  </nav>
+ <?php include 'navigation.php'; ?>
 
      <!-- Main content -->
     <div class="container">
@@ -111,10 +81,6 @@
      
     </article>
   </section>
-  <footer class="col-xs-12">
-  <p>&copy; Indianola University, 2017</p>
-  <p>702 E C St, Indianola, IA 50125</p>
-  <p>Phone: 515-123-4567</p>
-  </footer>
+ <?php include 'footer.php'; ?>
 </body>
 </html>
